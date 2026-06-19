@@ -101,7 +101,7 @@ Build a single-page static marketing website for MartBridge using Next.js 14 (Ap
     - Set `id="differentiators"` for navigation anchor
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 10.1_
 
-- [~] 5. Checkpoint — Verify core structure renders
+- [ ] 5. Checkpoint — Verify core structure renders
   - Ensure the project builds successfully (`npm run build` produces `/out` directory)
   - Ensure Hero and Differentiators sections render at all breakpoints
   - Ask the user if questions arise.
@@ -164,7 +164,7 @@ Build a single-page static marketing website for MartBridge using Next.js 14 (Ap
     - Verify static export renders all content as HTML
     - _Requirements: 12.4, 12.5, 14.1_
 
-- [~] 8. Checkpoint — Full page composition
+- [ ] 8. Checkpoint — Full page composition
   - Ensure `npm run build` succeeds and produces complete static HTML in `/out`
   - Ensure all sections render correctly at desktop width
   - Ensure navigation links scroll to correct sections
@@ -240,13 +240,13 @@ Build a single-page static marketing website for MartBridge using Next.js 14 (Ap
     - _Requirements: 14.1, 12.5, 8.3_
 
 - [ ] 12. SEO and metadata finalization
-  - [~] 12.1 Add Open Graph image and favicon
+  - [ ] 12.1 Add Open Graph image and favicon
     - Create or place `public/og-image.png` (1200×630) placeholder using brand colors
     - Ensure `favicon.ico` is present in `app/` directory
     - Verify OG meta tags reference correct image path
     - _Requirements: 12.2, 12.1_
 
-- [~] 13. Final checkpoint — Production readiness
+- [ ] 13. Final checkpoint — Production readiness
   - Ensure `npm run build` produces error-free static export
   - Ensure all requirements are covered by implemented sections
   - Ensure all navigation links work correctly

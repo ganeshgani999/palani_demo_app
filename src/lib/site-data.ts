@@ -32,6 +32,11 @@ export interface SocialLink {
   ariaLabel: string;
 }
 
+export interface GalleryImage {
+  src: string;
+  alt: string;
+}
+
 // ─── Site Configuration ───────────────────────────────────────────────────────
 
 export const siteConfig = {
@@ -111,12 +116,34 @@ export const trustSignals: TrustSignal[] = [
   },
 ];
 
+// ─── Gallery Images ───────────────────────────────────────────────────────────
+
+export const galleryImages: GalleryImage[] = [
+  {
+    src: "/images/gallery/warehouse.jpeg",
+    alt: "MartBridge warehouse stocked with wholesale products ready for distribution",
+  },
+  {
+    src: "/images/gallery/store.jpeg",
+    alt: "Retail partner store shelves filled with products supplied by MartBridge",
+  },
+  {
+    src: "/images/gallery/team.jpeg",
+    alt: "MartBridge founding team collaborating in the operations office",
+  },
+  {
+    src: "/images/gallery/delivery.jpeg",
+    alt: "MartBridge delivery vehicle loaded for a retail partner shipment",
+  },
+];
+
 // ─── Navigation Links ─────────────────────────────────────────────────────────
 
 export const navLinks: NavLink[] = [
   { label: "Home", href: "#hero" },
   { label: "Differentiators", href: "#differentiators" },
   { label: "About", href: "#about" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#contact" },
 ];
 
